@@ -152,6 +152,221 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-Homework3" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/04/18/Homework3/">Homework3</a>
+    </h1>
+  
+
+        
+        <a href="/2019/04/18/Homework3/" class="archive-article-date">
+  	<time datetime="2019-04-18T09:02:44.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-04-18</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <ul>
+<li><p>简述瀑布模型、增量模型、螺旋模型（含原型方法），并分析优缺点</p>
+<ul>
+<li>瀑布模型：开发过程是通过设计一系列阶段顺序展开的，从系统需求分析开始直到产品发布和维护，每个阶段都会产生循环反馈；将软件生命周期划分为制定计划、需求分析、软件设计、程序编写、软件测试和运行维护等六个基本活动，并且规定了它们自上而下、相互衔接的固定次序，如同瀑布流水，逐级下落。<ul>
+<li>优点：定义了软件开发基本流程与活动，有利于大型软件开发过程中人员的组织、管理，有利于软件开发方法和工具的研究，从而提高了大型软件项目开发的质量和效率。</li>
+<li>缺点：依赖度高，前面需求模糊会导致后面工作开发困难；容错率低，在后期发现需求问题的话，工作量难以接受；瀑布模型是由文档驱动的。</li>
+</ul>
+</li>
+<li>增量模型：把软件产品作为一些列的增量构件来设计、编码、集成和测试。每个构件由多个相互作用的模块构成，并且能够完成特定的功能。分解时唯一必须遵守的约束条件是，当把新构件集成到现有软件中时，所形成的产品必须是可测试的。<ul>
+<li>优点：能在较短时间内向用户提交可完成一些有用的工作的产品。逐步增加产品功能可以使用户有较充裕的时间学习和适应新产品，从而减少一个全新的软件可能给客户组织带来的冲击。</li>
+<li>缺点：使用增量模型的困难是，在把每个新的增量构件集成到现有软件体系结构中时，必须不破坏原来已经开发出的产品，软件体系结构必须是开放的，相比其他的开发模型需要更精心的设计。</li>
+</ul>
+</li>
+<li>螺旋模型：使用原型及其他方法来尽量降低风险。特点：瀑布模型（系统化）+快速原型（迭代过程）+风险分析。一个螺旋式周期：确定目标，选择方案，选定完成目标的策略；风险角度分析该策略；启动一个开发阶段；评价前一步的结果，计划下一轮的工作。<ul>
+<li>优点：对可选方案和约束条件的强调有利于已有软件的重用，也有助于把软件质量作为软件开发的一个重要目标。减少了多个测试（浪费资金）或测试不足（产品故障多）所带来的风险。</li>
+<li>缺点：需要相当丰富的风险评估，多次迭代会提高成本，延迟提交时间。</li>
+</ul>
+</li>
+<li>原型模型：借用已有系统作为原型模型，通过“样品”不断改进，使得最后的产品就是用户所需要的。<ul>
+<li>优点：开发人员和用户在“原型”上达成一致。这样一来，可以减少设计中的错误和开发中的风险，也减少了对用户培训的时间，而提高了系统的实用、正确性以及用户的满意程度。 </li>
+<li>缺点：采用原型模型开发系统，用户和开发者必须达成一致：原型被建造仅仅是用户用来定义需求，之后便部分或全部抛弃，最终的软件是要充分考虑了质量和可维护性等方面之后才被开发。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>简述统一过程三大特点，与面向对象的方法有什么关系？</p>
+<ul>
+<li>用例和风险驱动</li>
+<li>以体系结构为核心</li>
+<li>迭代及增量</li>
+<li>关系：统一过程是一个面向对象且基于网络的程序开发方法论。</li>
+</ul>
+</li>
+<li><p>简述统一过程四个阶段的划分准则是什么？每个阶段关键的里程碑是什么？</p>
+<ul>
+<li><p>准则：统一过程中的软件生命周期在时间上被分解为四个顺序的阶段：初始阶段、细化阶段、构造阶段和交付阶段。</p>
+<p>四个阶段对应的主要里程碑：</p>
+<ul>
+<li>初始阶段-获得项目的基础：生命期目标；</li>
+<li>细化阶段-进化软件构架:生命期构架；</li>
+<li>构造阶段-构造软件：初试运作功能：</li>
+<li>移交阶段-把软件部署到用户环境：产品发布。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>软件企业为什么能按固定节奏生产、固定周期发布软件产品？它给企业项目管理带来哪些好处？</p>
+<p>软件生产本质众智劳动，产品范围弹性大，与实物产品生产的本质不同：</p>
+<ul>
+<li>复杂性：工作量与项目规模呈指数关系，且任务完成依赖开发者的上下文知识。</li>
+<li>一致性：用户需要、软件需求、设计、编码…引入的缺陷，常需要在使用场景才发现，导致计划延期。</li>
+<li>易变性：产品需求随使用环境变化，如使用者类型、使用者人数会导致需求变化</li>
+<li>不可见性：使用者通过多媒体与产品交互，却难以知道内部算法及其系统的复杂。</li>
+<li>唯一性：以用户思维思考产品。</li>
+</ul>
+<p>好处：以用户为中心，以架构为重心，以风险驱动生产，利于及时交付使用，利于量化团队和个人效率。</p>
+</li>
+</ul>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/04/18/Homework3/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-Homework2" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/04/18/Homework2/">Homework2</a>
+    </h1>
+  
+
+        
+        <a href="/2019/04/18/Homework2/" class="archive-article-date">
+  	<time datetime="2019-04-18T09:01:34.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-04-18</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>1.简答题</p>
+<ul>
+<li>用简短的语言给出对分析、设计的理解。<ul>
+<li>分析：对问题和需求的调查研究，而不是解决方案</li>
+<li>设计：强调的是满足需求的概念上的解决方案而不是其实现。</li>
+</ul>
+</li>
+<li>用一句话描述面向对象的分析与设计的优势<ul>
+<li>可读性高、维护成本低，扩展性好</li>
+</ul>
+</li>
+<li>简述 UML（统一建模语言）的作用<ul>
+<li>借助可视化语言的功能，用于探讨问题或解决方案空间的复杂部分。</li>
+<li>对现有代码进行可视化，使其易于理解。</li>
+<li>完成软件系统可执行规格说明。</li>
+</ul>
+</li>
+<li>从软件本质的角度，解释软件范围（需求）控制的可行性<ul>
+<li>软件本质特性：复杂性，一致性，可变性，不可视性。</li>
+<li>由于软件本身的复杂性、不可见性、不一致性和可变性，软件范围在多数情况下对于客户和开发者都是模糊的，这形成了软件产品与其它产品不同的开发过程。我们只要在满足客户基本需求的前提下，不断砍去用户不明确的需求，完成基本的功能，再通过多次迭代就能实现最终的软件设计。</li>
+</ul>
+</li>
+</ul>
+<p>2.项目管理实践</p>
+<ul>
+<li><p>看板使用练习，这周我们小组的看板：</p>
+<p><img src="Homework1/Homework2-kanban.png" alt></p>
+</li>
+<li><p>UML绘图工具练习</p>
+<p><img src="Homework1/Homework2-UMLet.png" alt></p>
+<p>   出自课本《UML和模式应用原书第3版》第9页 图1-6UML的不同透视图。</p>
+</li>
+</ul>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/04/18/Homework2/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-Homework1" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
