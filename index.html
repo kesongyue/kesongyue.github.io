@@ -152,6 +152,145 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-Homework6" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/05/21/Homework6/">Homework6</a>
+    </h1>
+  
+
+        
+        <a href="/2019/05/21/Homework6/" class="archive-article-date">
+  	<time datetime="2019-05-21T14:57:06.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-21</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <ul>
+<li><p>简答题</p>
+<ul>
+<li><p>1.用例的概念：</p>
+<p>用例就是一组相关的成功和失败场景集合，用来描述参与者如何使用系统来实现其目标。</p>
+</li>
+<li><p>用例和场景的关系？什么是主场景或happy path</p>
+<p>场景是参与者和系统之间特定的一系列动作和绘画，是用例的实例。一个用例是一些场景的集合。主成功场景或happy path是用例从触发事件开始，一步一步执行，最终满足用例利益的步骤集合。</p>
+</li>
+<li><p>用例形式</p>
+<ul>
+<li>摘要——简洁的一段式概要，通常用于主成功场景。</li>
+<li>非正式——非正式的段落格式。用几个段落覆盖不同场景。</li>
+<li>详述——详细编写所有步骤及各种变化，同时具有补充部分。</li>
+</ul>
+</li>
+<li><p>对于复杂业务，为什么编制完整用例非常难？</p>
+<p>复杂业务的场景较多，场景较为复杂。在前期的考虑中，很难不遗漏一些业务条件和需求，且这些需求条件还可能发生变化。所以对于复杂业务，编制完整用例且不遗漏情景、良好地安排每个场景、场景内元素地关系非常困难。</p>
+</li>
+<li><p>什么是用例图？</p>
+<p>用例图是指由参与者（Actor）、用例（Use Case），边界以及它们之间的关系构成的用于描述系统功能的视图。</p>
+</li>
+<li><p>用例图的基本符号与元素？</p>
+<ul>
+<li><p>参与者Actor</p>
+<p>表示与您的应用程序或系统进行交互的用户、组织或外部系统。用一个小人表示。</p>
+<p><img src="/Image/Homework6-actor.png" alt></p>
+</li>
+<li><p>用例Use Case</p>
+<p>用例就是外部可见的系统功能，对系统提供的服务进行描述。用椭圆表示。</p>
+<p><img src="/Image/Homework6-usecase.png" alt></p>
+</li>
+<li><p>子系统(Subsystem)</p>
+<p>用来展示系统的一部分功能，这部分功能联系紧密。</p>
+</li>
+<li><p>关系</p>
+<p>用例图中涉及的关系有：关联、泛化、包含、扩展。</p>
+<p><img src="/Image/Homework6-relation.png" alt></p>
+</li>
+</ul>
+</li>
+<li><p>用例图的画法与步骤</p>
+<p>第一步——确定参与者，其中包括（1）主要参与者：谁将使用系统的主要功能、谁将需要系统的支持以完成工作等；（2）协作参与者：谁将提供对应的系统功能、谁将维护系统，保证系统处于工作状态等；（3）幕后参与者：谁会对系统产生的结果感兴趣。第二步——创建用例，其中包括（1）识别使用系统的主要参与者（primary actors）/角色(roles) ；（2）识别系统依赖的外部系统；（3）识别用例（服务）；（4）识别用户级别用例（user goal level）；（5）识别子功能级别的用例（sub function level）；（6）建立 Actor 和 Use Cases 之间的关联。</p>
+</li>
+<li><p>用例图给利益相关人与开发者的价值有哪些？</p>
+<p>用例图是由软件需求分析到最终实现的第一步，它描述了参与者如何使用一个系统。用例视图显示谁是相关的用户、用户希望系统提供什么样的服务，以及用户需要为系统提供的服务，以便使系统的用户更容易理解这些元素的用途，也便于软件开发人员最终实现这些元素。</p>
+</li>
+</ul>
+</li>
+<li><p>建模练习题</p>
+<ul>
+<li><p>选择2-3个你熟悉的类似业务的在线服务系统（或移动 APP），如定旅馆（携程、去哪儿等）、定电影票、背单词APP等，分别绘制它们用例图。</p>
+<p><img src="/Image/Homework6-movie.png" alt></p>
+<p>​                <img src="/Image/Homework6-hotel.png" alt></p>
+</li>
+<li><p>回答问题：</p>
+<ul>
+<li><p>为什么相似系统的用例图是相似的？</p>
+<p>相似系统面对的参与者和用例是相似的，用例之间的关系也是同构的。用户预期的功能都是相似的，即不同的同类系统一定具有一致基本功能以及带有自己特色的扩展功能。</p>
+</li>
+<li><p>如果是定旅馆业务，请对比 Asg_RH 用例图，简述如何利用不同时代、不同地区产品的用例图，展现、突出创新业务和技术</p>
+<p>不同时代对酒店的需求不同，可能对酒店装饰的风格也有所偏好。旅游胜地和一般城市，一线城市和二线城市对酒店的需求也会有所差别。可以根据实际需求在用例图突出表示。</p>
+</li>
+<li><p>如何利用用例图定位创新思路（业务创新、或技术创新、或商业模式创新）在系统中的作用</p>
+<p>通过判断创新点在用例图中的位置。如果创新点属于直接与用户关联的用例，则在系统中的作用很重要。如果是子用例，则看与父用例的关系，如果是包含关系，则作用较大，如果是扩展用例，则作用较小。</p>
+</li>
+<li><p>请使用 SCRUM 方法，选择一个用例图，编制某定旅馆开发的需求（backlog）开发计划表</p>
+<p>| ID   | Name     | IMP  | Est(manday) | How to Demo                  | Notes |<br>| —- | ——– | —- | ———– | —————————- | —– |<br>| 1    | 选择酒店 | 30   | 40          | 根据条件筛选出符合条件的酒店 |       |<br>| 2    | 预约     | 30   | 30          | 选择日期，具体房间生成订单   |       |<br>| 3    | 支付     | 30   | 30          | 选择支付方式进行支付         | API   |<br>| 4    | 查找酒店 | 20   | 20          | 根据酒店名或地址搜索         | API   |</p>
+</li>
+<li><p>根据任务4，参考 使用用例点估算软件成本，给出项目用例点的估算</p>
+<p>| 用例     | 事务 | 计算 | UC权重 |<br>| ——– | —- | —- | —— |<br>| 选择酒店 | 6    | 5    | 复杂   |<br>| 预约     | 6    | 4    | 简单   |<br>| 支付     | 5    | 4    | 简单   |<br>| 查找酒店 | 6    | 5    | 复杂   |</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/05/21/Homework6/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-Homework3" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
